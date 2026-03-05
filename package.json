@@ -1,6 +1,7 @@
 {
   "name": "overShop",
   "version": "1.0.0",
+  "private": true,
   "homepage": "https://overshop.vercel.app",
   "scripts": {
     "dev": "vite",
@@ -10,12 +11,16 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "react-hook-form": "^7.46.5"
   },
   "devDependencies": {
     "vite": "^5.0.0",
     "gh-pages": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
