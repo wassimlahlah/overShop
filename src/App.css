@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-primary: #1f2937;
+  --color-mimo:oklch(71.2% 0.194 13.428);
+  --color-pipo:oklch(51.4% 0.222 16.935);
+  --color-kiko:oklch(71.5% 0.143 215.221);
+  --color-tito:oklch(42.4% 0.199 265.638);
+  --color-shadow:0 1px 2px oklch(19.436% 0.07316 265.06);
+}
+
+.dark {
+  --color-background: oklch(31.053% 0.06859 268.66);
+  --color-primary: #ffffff;
+  --color-mimo:oklch(71.2% 0.194 13.428);
+  --color-pipo:oklch(51.4% 0.222 16.935);
+  --color-kiko:oklch(71.5% 0.143 215.221);
+  --color-tito:oklch(42.4% 0.199 265.638);
+  --color-shadow:0 4px 6px oklch(70.7% 0.165 254.624);
+}
+.App{
+  margin: 0;
+
+}
