@@ -48,14 +48,14 @@ export default function ProductDetails() {
         <div className="flex sm:flex-col-2 gap-4">
           <Link to={'/Checkout'}
             onClick={() => addToCart(product.id)}
-            className="text-center text-xs sm:text-md bg-[var(--color-kiko)] text-[var(--color-primary)] font-semibold p-2 sm:p-3 rounded-lg hover:bg-[var(--color-tito)] transition-colors duration-300 shadow-md"
+            className="text-center text-xs sm:text-sm md:text-lg bg-[var(--color-kiko)] text-[var(--color-primary)] font-semibold p-2 sm:p-3 rounded-lg hover:bg-[var(--color-tito)] transition-colors duration-300 shadow-md"
           >
             Add to Cart
           </Link>
 
           <button
             onClick={() => window.history.back()}
-            className="text-center text-xs sm:text-md bg-[var(--color-mimo)] text-[var(--color-primary)] font-semibold p-2 sm:p-3 rounded-lg hover:bg-[var(--color-pipo)] transition-colors duration-300 shadow-md"
+            className="text-center text-xs sm:text-sm md:text-lg bg-[var(--color-mimo)] text-[var(--color-primary)] font-semibold p-2 sm:p-3 rounded-lg hover:bg-[var(--color-pipo)] transition-colors duration-300 shadow-md"
           >
             Go Back
           </button>
